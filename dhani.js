@@ -2414,8 +2414,8 @@ members_ids.push(mem.jid)
 }
 vcard2 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
-+ `FN:${ownername}\n`
-+ `ORG: Creator ${ownername} ;\n`
++ `FN:${RhmnOfficial}\n`
++ `ORG: Creator ${RhmnOfficial} ;\n`
 + `TEL;type=CELL;type=VOICE;waid=${owner}:${owner}\n`
 + 'END:VCARD'.trim()
 Dhani.sendMessage(from, {displayName: `Ownernya ${botname}`, vcard: vcard2}, contact, 
