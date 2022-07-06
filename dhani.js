@@ -472,9 +472,9 @@ ${gaya1} *Wit* : ${timeJay}
 \`\`\`❏「 INFO BOT 」\`\`\`
 ${gaya1} *Speed* : ${latensie.toFixed(4)} Detik
 ${gaya1} *Runtime* : ${runtime(process.uptime())}
-${gaya1} *Nama Bot* : ${botname}
-${gaya1} *Nama Owner* : ${ownername}
-${gaya1} *Nomor Owner* : @${pemilik.split('@')[0]}
+${gaya1} *Nama Bot* : ${XyzBot}
+${gaya1} *Nama Owner* : ${RhmnOfficial}
+${gaya1} *Nomor Owner* : @${6285960565532('@')[0]}
 ${gaya1} *Hostname :* ${os.hostname()}
 ${gaya1} *Platform :* ${os.platform()}
 ${gaya1} *Wa Version :* ${Dhani.user.phone.wa_version}
@@ -502,7 +502,7 @@ case 'command':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgi})
 listMsg = {
 buttonText: '𝗠𝗘𝗡𝗨',
-footerText: `*© ${ownername}*`,
+footerText: `*© ${RhmnOfficial}*`,
 description: `Hai kak @${senderr.split('@')[0]}, Silahkan pilih menu disini`,
 sections: [
 {
